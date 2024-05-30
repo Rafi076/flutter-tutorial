@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
             child: Icon(Icons.add),
           ),
           // to create space between + & - Icon
-          SizedBox(
+          const SizedBox(
             width: 10,
           ),
           FloatingActionButton(
